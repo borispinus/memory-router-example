@@ -2,15 +2,41 @@ html,
 body {
   padding: 0;
   margin: 0;
+  padding: 10px;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 a {
-  color: inherit;
   text-decoration: none;
+  margin: 0;
+  color: #0070f3;
 }
 
 * {
   box-sizing: border-box;
+}
+
+.route {
+  border: 1px solid black;
+  padding: 5px;
+  display: inline-block;
+  width: 200px;
+}
+.index {
+  display: flex;
+  align-items: stretch;
+}
+.map {
+  width: 100%;
+  height: 600px;
+  background-color: aquamarine;
+}
+.point {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: red;
+  margin-left: 60px;
+  margin-top: 60px;
 }
